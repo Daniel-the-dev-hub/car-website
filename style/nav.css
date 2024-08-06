@@ -1,0 +1,39 @@
+header {
+    margin-top: 4%;
+
+    nav {
+        margin-top: 2%;
+        margin-left: 30%;
+        margin-right: 30%;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            list-style: none;
+            padding: 0;
+
+            a {
+                font-weight: bold;
+                color: white;
+                text-decoration: none;
+                padding-bottom: 8px;
+            }
+
+            a:hover {
+                border-bottom: 3px solid #EC3400;
+                border-radius: 2px;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        nav {
+            margin-top: 2%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+    }
+}

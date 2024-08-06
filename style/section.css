@@ -1,0 +1,1050 @@
+section {
+
+    .hero {
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: rgba(0, 0, 0, 0.616);
+        padding-top: 50px;
+        border-radius: 10px;
+        border: 3px solid #EC3400;
+        div {
+            color: white;
+
+            h1 {
+                font-size: 35px;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+        } 
+
+        img {
+            height: 25rem;
+            margin-top: -5%;
+        }
+    }
+
+    .our-services {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 15%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.616);
+        /* background-image:  url(https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2
+        020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960); */
+        padding: 80px 150px;
+        border-radius: 15px;
+
+        .serv1 {
+            border: 3px solid #EC3400;
+            border-radius: 15px;
+            padding-top: 30px;
+            padding-left: 16px;
+            padding-right: 16px;
+
+            h4 {
+                text-align: center;
+            }
+
+            img {
+                height: 30px;
+                margin-left: 40px;
+            }
+        }
+        .serv2 {
+            border: 3px solid #EC3400;
+            border-radius: 15px;
+            padding-top: 30px;
+            padding-left: 16px;
+            padding-right: 16px;
+            background-color: #EC3400;
+
+            img {
+                height: 30px;
+                margin-left: 60px;
+            }
+        }
+        .serv3 {
+            border: 3px solid #EC3400;
+            border-radius: 15px;
+            padding-top: 30px;
+            padding-left: 16px;
+            padding-right: 16px;
+
+            img {
+                height: 30px;
+                margin-left: 45px;
+            }
+        }
+    }
+
+    .about {
+        margin-left: 20%;
+        margin-top: 13%;
+        color: white;
+
+
+        div {
+            margin-left: -12%;
+
+            h2 {
+                font-weight: bold;
+                font-size: 25px;
+            }
+
+            p {
+                /* font-weight: bold; */
+                line-height: 22px;
+            }
+
+            button {
+                padding: 8px 16px;
+                background-color: #EC3400;
+                border-radius: 3px;
+                margin-top: 15px;
+                border: 1px solid rgb(175, 171, 171);
+                color: white;
+                cursor: pointer;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                }
+            } 
+
+            button:hover {
+                background-color: black;
+            }
+            button:active {
+                background-color: rgb(136, 132, 132);
+            }
+        }
+
+        img {
+            height: 15rem;
+            margin-left: 55%;
+            margin-top: -20%;
+        }
+
+        .rectangle {
+            background-color: red;
+            padding: 15px 0;
+            margin-top: -12%;
+            margin-left: 60%;
+        }
+    }
+
+    .why-choose-us {
+        text-align: center;
+        margin-top: 11%;
+
+        .div-1 {
+            color: white;
+
+            h2 {
+                font-weight: bold;
+                font-size: 25px;
+            }
+
+            p {
+                /* font-weight: bold; */
+                line-height: 25px;
+            }
+
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 6%;
+            margin-left: 10%;
+            margin-right: 10%;
+            .box-1 {
+                border: 3px solid #EC3400;
+                padding: 18px 16px;
+                border-radius: 15px;
+                img {
+                    height: 50px;
+                }
+                h4 {
+                    color: white;
+                }
+                p {
+                    color: white;
+                    line-height: 22px;
+                }
+            }
+            .box-2 {
+                border: 3px solid #EC3400;
+                padding: 18px 16px;
+                border-radius: 15px;
+                background-color: #EC3400;
+                img {
+                    height: 50px;
+                }
+                h4 {
+                    color: white;
+                }
+                p {
+                    color: white;
+                    line-height: 22px;
+                }
+            }
+            .box-3 {
+                border: 3px solid #EC3400;
+                padding: 18px 16px;
+                border-radius: 15px;
+                img {
+                    height: 50px;
+                }
+                h4 {
+                    color: white;
+                }
+                p {
+                    color: white;
+                    line-height: 22px;
+                }
+            }
+            
+        }
+    }
+
+    .bookings {
+
+        .booked-car {
+            color: white;
+            margin-left: 10%;
+            margin-top: 10%;
+
+            p {
+                line-height: 22px;
+                margin-bottom: -3%;
+            }
+            button {
+                padding: 8px 16px;
+                background-color: #EC3400;
+                border-radius: 3px;
+                border: 1px solid rgb(175, 171, 171);
+                color: white;
+                cursor: pointer;
+                margin-left: 80%;
+    
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                }
+            } 
+    
+            button:hover {
+                background-color: black;
+            }
+            button:active {
+                background-color: rgb(136, 132, 132);
+            }
+        }
+
+        .cars {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 11%;
+
+            .car-1 {
+                border: 3px solid #EC3400;
+                padding: 18px 16px;
+                border-radius: 15px;
+                margin-top: 3%;
+
+                img {
+                    height: 100px;
+                }
+                .detail {
+                    margin-top: 10px;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    a:hover {
+                        color: #EC3400;
+                    }
+                }
+            }
+        }
+        
+
+    }
+
+    footer {
+        .subscribe {
+            margin-top: 10%;
+            text-align: center;
+            h3 {
+                color: white;
+                margin-bottom: 40px;
+                /* margin-left: 10%; */
+                /* margin-right: 0%; */
+            }
+
+            input {
+                padding: 16px 18px;
+                border: 3px solid #EC3400;
+                border-radius: 15px;
+                margin-top: -10%;
+                /* margin-left: %; */
+                /* margin-right: 30%; */
+                width: 400px;
+            }
+            a {
+                border: 3px solid #EC3400;
+                padding: 16px 18px;
+                border-radius: 15px;
+                color: #EC3400;
+                font-weight: bold;
+                background-color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            list-style: none;
+            padding: 0;
+            margin-top: 5%;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-bottom: 5%;
+
+
+            a {
+                font-weight: bold;
+                color: white;
+                text-decoration: none;
+                padding-bottom: 8px;
+            }
+
+            a:hover {
+                border-bottom: 3px solid #EC3400;
+                border-radius: 2px;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        .hero {
+            img {
+                height: 11rem;
+                margin-top: -5%;
+            }
+        }
+
+        .about {
+            margin-left: 12%;
+            margin-top: 13%;
+            color: white;
+            text-align: center;
+    
+    
+            div {
+                /* margin-left: -12%; */
+    
+                h2 {
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+    
+                p {
+                    /* font-weight: bold; */
+                    line-height: 22px;
+                }
+    
+                button {
+                    padding: 8px 16px;
+                    background-color: #EC3400;
+                    border-radius: 3px;
+                    margin-top: 15px;
+                    border: 1px solid rgb(175, 171, 171);
+                    color: white;
+                    cursor: pointer;
+    
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                    }
+                } 
+    
+                button:hover {
+                    background-color: black;
+                }
+                button:active {
+                    background-color: rgb(136, 132, 132);
+                }
+            }
+    
+            img {
+                height: 10rem;
+                margin-left: 10%;
+                margin-right: 20%;
+                margin-top: 10%;
+            }
+    
+            .rectangle {
+                background-color: red;
+                padding: 15px 0;
+                margin-top: -23%;
+                margin-left: 60%;
+            }
+        }
+
+        .our-services {
+            display: flex;
+            /* justify-content: space-evenly; */
+            flex-direction: column;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 15%;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.616);
+            /* background-image:  url(https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2
+            020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960); */
+            padding: 40px 100px;
+            border-radius: 15px;
+    
+            .serv1 {
+                border: 3px solid #EC3400;
+                border-radius: 15px;
+                padding-top: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 10%;
+    
+                h4 {
+                    text-align: center;
+                    /* font-size: smaller; */
+                }
+    
+                img {
+                    height: 30px;
+                    margin-left: 70px;
+                }
+            }
+            .serv2 {
+                border: 3px solid #EC3400;
+                border-radius: 15px;
+                padding-top: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 10%;
+    
+                h4 {
+                    text-align: center;
+                    /* font-size: smaller; */
+                }
+    
+                img {
+                    height: 30px;
+                    margin-left: 70px;
+                }
+            }
+            .serv3 {
+                border: 3px solid #EC3400;
+                border-radius: 15px;
+                padding-top: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 10%;
+    
+                h4 {
+                    text-align: center;
+                    /* font-size: smaller; */
+                }
+    
+                img {
+                    height: 30px;
+                    margin-left: 70px;
+                }
+            }
+        }
+        
+        .why-choose-us {
+            text-align: center;
+            margin-top: 11%;
+    
+            .div-1 {
+                color: white;
+                /* margin-left: 10%;
+                margin-top: 10%; */
+    
+                h2 {
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+    
+                p {
+                    /* font-weight: bold; */
+                    line-height: 25px;
+                }
+    
+            }
+    
+            .boxes {
+                display: flex;
+                /* justify-content: space-between; */
+                flex-direction: column;
+                margin-top: 6%;
+                margin-left: 10%;
+                margin-right: 10%;
+                .box-1 {
+                    border: 3px solid #EC3400;
+                    padding: 18px 16px;
+                    border-radius: 15px;
+                    img {
+                        height: 50px;
+                    }
+                    h4 {
+                        color: white;
+                    }
+                    p {
+                        color: white;
+                        line-height: 22px;
+                    }
+                }
+                .box-2 {
+                    border: 3px solid #EC3400;
+                    padding: 18px 16px;
+                    border-radius: 15px;
+                    background-color: #EC3400;
+                    margin-top: 10%;
+
+                    img {
+                        height: 50px;
+                    }
+                    h4 {
+                        color: white;
+                    }
+                    p {
+                        color: white;
+                        line-height: 22px;
+                    }
+                }
+                .box-3 {
+                    border: 3px solid #EC3400;
+                    padding: 18px 16px;
+                    border-radius: 15px;
+                    margin-top: 10%;
+
+                    img {
+                        height: 50px;
+                    }
+                    h4 {
+                        color: white;
+                    }
+                    p {
+                        color: white;
+                        line-height: 22px;
+                    }
+                }
+                
+            }
+        }
+
+        .bookings {
+
+            .booked-car {
+                color: white;
+                margin-left: 10%;
+                margin-top: 10%;
+                text-align: center;
+    
+                p {
+                    line-height: 22px;
+                    margin-bottom: -3%;
+                }
+                button {
+                    padding: 8px 16px;
+                    background-color: #EC3400;
+                    border-radius: 3px;
+                    border: 1px solid rgb(175, 171, 171);
+                    color: white;
+                    cursor: pointer;
+                    margin-left: -10%;
+                    margin-top: 10%;
+        
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                    }
+                } 
+        
+                button:hover {
+                    background-color: black;
+                }
+                button:active {
+                    background-color: rgb(136, 132, 132);
+                }
+            }
+    
+            .cars {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin-right: 11%;
+    
+                .car-1 {
+                    border: 3px solid #EC3400;
+                    padding: 18px 16px;
+                    border-radius: 15px;
+                    margin-top: 3%;
+    
+                    img {
+                        height: 100px;
+                    }
+                    .detail {
+                        margin-top: 10px;
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                        a:hover {
+                            color: #EC3400;
+                        }
+                    }
+                }
+            }
+            
+    
+        }
+
+        footer {
+            .subscribe {
+                margin-top: 10%;
+                text-align: center;
+                h3 {
+                    color: white;
+                    margin-bottom: 40px;
+                    /* margin-left: 10%; */
+                    /* margin-right: 0%; */
+                }
+    
+                input {
+                    padding: 16px 18px;
+                    border: 3px solid #EC3400;
+                    border-radius: 15px;
+                    margin-top: -10%;
+                    /* margin-left: %; */
+                    /* margin-right: 30%; */
+                    width: 250px;
+                }
+                a {
+                    border: 3px solid #EC3400;
+                    padding: 16px 18px;
+                    border-radius: 15px;
+                    color: #EC3400;
+                    font-weight: bold;
+                    background-color: white;
+                    text-decoration: none;
+                }
+                a:hover {
+                    background-color: black;
+                    color: white;
+                }
+            }
+    
+            ul {
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                list-style: none;
+                padding: 0;
+                margin-top: 5%;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-bottom: 10%;
+    
+    
+                a {
+                    font-weight: bold;
+                    color: white;
+                    text-decoration: none;
+                    padding-bottom: 8px;
+                }
+    
+                a:hover {
+                    border-bottom: 3px solid #EC3400;
+                    border-radius: 2px;
+                }
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    section {
+        .hero {
+            img {
+                height: 10rem;
+                margin-top: -5%;
+            }
+        }
+
+        .about {
+            margin-left: 12%;
+            margin-top: 13%;
+            color: white;
+            text-align: center;
+    
+    
+            div {
+                /* margin-left: -12%; */
+    
+                h2 {
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+    
+                p {
+                    /* font-weight: bold; */
+                    line-height: 22px;
+                }
+    
+                button {
+                    padding: 8px 16px;
+                    background-color: #EC3400;
+                    border-radius: 3px;
+                    margin-top: 15px;
+                    border: 1px solid rgb(175, 171, 171);
+                    color: white;
+                    cursor: pointer;
+    
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                    }
+                } 
+    
+                button:hover {
+                    background-color: black;
+                }
+                button:active {
+                    background-color: rgb(136, 132, 132);
+                }
+            }
+    
+            img {
+                height: 10rem;
+                margin-left: 10%;
+                margin-right: 20%;
+                margin-top: 10%;
+            }
+    
+            .rectangle {
+                background-color: red;
+                padding: 15px 0;
+                margin-top: -19%;
+                margin-left: 40%;
+            }
+        }
+
+        .our-services {
+            display: flex;
+            /* justify-content: space-evenly; */
+            flex-direction: column;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 15%;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.616);
+            /* background-image:  url(https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2
+            020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960); */
+            padding: 40px 100px;
+            border-radius: 15px;
+    
+            .serv1 {
+                border: 3px solid #EC3400;
+                border-radius: 15px;
+                padding-top: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 10%;
+    
+                h4 {
+                    text-align: center;
+                    /* font-size: smaller; */
+                }
+    
+                img {
+                    height: 30px;
+                    margin-left: 45%;
+                }
+            }
+            .serv2 {
+                border: 3px solid #EC3400;
+                border-radius: 15px;
+                padding-top: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 10%;
+    
+                h4 {
+                    text-align: center;
+                    /* font-size: smaller; */
+                }
+    
+                img {
+                    height: 30px;
+                    margin-left: 45%;
+                }
+            }
+            .serv3 {
+                border: 3px solid #EC3400;
+                border-radius: 15px;
+                padding-top: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 10%;
+    
+                h4 {
+                    text-align: center;
+                    /* font-size: smaller; */
+                }
+    
+                img {
+                    height: 30px;
+                    margin-left: 45%;
+                }
+            }
+        }
+        
+        .why-choose-us {
+            text-align: center;
+            margin-top: 11%;
+    
+            .div-1 {
+                color: white;
+                /* margin-left: 10%;
+                margin-top: 10%; */
+    
+                h2 {
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+    
+                p {
+                    /* font-weight: bold; */
+                    line-height: 25px;
+                }
+    
+            }
+    
+            .boxes {
+                display: flex;
+                /* justify-content: space-between; */
+                flex-direction: column;
+                margin-top: 6%;
+                margin-left: 10%;
+                margin-right: 10%;
+                .box-1 {
+                    border: 3px solid #EC3400;
+                    padding: 18px 16px;
+                    border-radius: 15px;
+                    img {
+                        height: 50px;
+                    }
+                    h4 {
+                        color: white;
+                    }
+                    p {
+                        color: white;
+                        line-height: 22px;
+                    }
+                }
+                .box-2 {
+                    border: 3px solid #EC3400;
+                    padding: 18px 16px;
+                    border-radius: 15px;
+                    background-color: #EC3400;
+                    margin-top: 10%;
+
+                    img {
+                        height: 50px;
+                    }
+                    h4 {
+                        color: white;
+                    }
+                    p {
+                        color: white;
+                        line-height: 22px;
+                    }
+                }
+                .box-3 {
+                    border: 3px solid #EC3400;
+                    padding: 18px 16px;
+                    border-radius: 15px;
+                    margin-top: 10%;
+
+                    img {
+                        height: 50px;
+                    }
+                    h4 {
+                        color: white;
+                    }
+                    p {
+                        color: white;
+                        line-height: 22px;
+                    }
+                }
+                
+            }
+        }
+
+        .bookings {
+
+            .booked-car {
+                color: white;
+                margin-left: 10%;
+                margin-top: 10%;
+                text-align: center;
+    
+                p {
+                    line-height: 22px;
+                    margin-bottom: -3%;
+                }
+                button {
+                    padding: 8px 16px;
+                    background-color: #EC3400;
+                    border-radius: 3px;
+                    border: 1px solid rgb(175, 171, 171);
+                    color: white;
+                    cursor: pointer;
+                    margin-left: -10%;
+                    margin-top: 10%;
+        
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                    }
+                } 
+        
+                button:hover {
+                    background-color: black;
+                }
+                button:active {
+                    background-color: rgb(136, 132, 132);
+                }
+            }
+    
+            .cars {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin-right: 11%;
+    
+                .car-1 {
+                    border: 3px solid #EC3400;
+                    padding: 18px 16px;
+                    border-radius: 15px;
+                    margin-top: 3%;
+    
+                    img {
+                        height: 100px;
+                    }
+                    .detail {
+                        margin-top: 10px;
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                        a:hover {
+                            color: #EC3400;
+                        }
+                    }
+                }
+            }
+            
+    
+        }
+
+        footer {
+            .subscribe {
+                margin-top: 10%;
+                text-align: center;
+                h3 {
+                    color: white;
+                    margin-bottom: 40px;
+                    /* margin-left: 10%; */
+                    /* margin-right: 0%; */
+                }
+    
+                input {
+                    padding: 16px 18px;
+                    border: 3px solid #EC3400;
+                    border-radius: 15px;
+                    margin-top: -10%;
+                    /* margin-left: %; */
+                    /* margin-right: 30%; */
+                    width: 250px;
+                }
+                a {
+                    border: 3px solid #EC3400;
+                    padding: 16px 18px;
+                    border-radius: 15px;
+                    color: #EC3400;
+                    font-weight: bold;
+                    background-color: white;
+                    text-decoration: none;
+                }
+                a:hover {
+                    background-color: black;
+                    color: white;
+                }
+            }
+    
+            ul {
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                list-style: none;
+                padding: 0;
+                margin-top: 5%;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-bottom: 10%;
+    
+    
+                a {
+                    font-weight: bold;
+                    color: white;
+                    text-decoration: none;
+                    padding-bottom: 8px;
+                }
+    
+                a:hover {
+                    border-bottom: 3px solid #EC3400;
+                    border-radius: 2px;
+                }
+            }
+            
+        }
+    }
+}
