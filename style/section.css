@@ -346,6 +346,9 @@ section {
 }
 
 @media (max-width: 600px) {
+    .head-box nav {
+        display: none;
+    }
     section {
         .hero {
             img {
