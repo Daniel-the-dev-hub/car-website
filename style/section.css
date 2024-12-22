@@ -701,6 +701,9 @@ section {
 }
 @media (max-width: 750px) {
     section {
+        .head-box nav {
+            display: none;
+        }
         .hero {
             img {
                 height: 10rem;
