@@ -3,3 +3,6 @@
     background-color: rgba(0, 0, 0, 0.616);
     font-family: 'Arial';
 }
+img {
+    max-width: 100%;
+}
